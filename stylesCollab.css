@@ -1,0 +1,195 @@
+.navbar-custom {
+    background-color:darkgoldenrod;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  main {
+    flex: 1;
+  }
+
+  h2 {
+    margin-top: 80px;
+    color: black;
+    font-size: 25px;
+    text-align:center;
+
+  }
+
+  h5 {
+    margin-top: 80px;
+    color: black;
+    font-size: 25px;
+    text-align:center;
+
+  }
+
+  #carouselExampleIndicators img {
+    width: 100%;
+    height: calc(100vh - 58px - 50px);
+    object-fit:contain;
+  }
+
+  #second-navbar {
+    background-color:darkgoldenrod;
+    display: flex;
+  }
+  
+  #second-navbar a {
+    height: 30px;
+    flex: 1;  /* all of these <a> elements will "grow" an equal amount (so they all have an equal width) */
+    display: flex;  /* allows use of "justify-content" and "align-items" properties */
+    justify-content: center;  /* horizontally centers the contents (the text within) */
+    align-items: center; /* vertically centers the contents (the text within) */
+    font-size: 22px;
+    
+  }
+  #second-navbar a:hover {
+    background-color:darkgoldenrod(0, 0, 0, 0.1);  /* change color when hover over the link */
+  }
+  
+
+  #section-1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: top;
+    justify-content: right; 
+  }  
+
+  hr {
+    /* add some fancy styling to the horizontal lines */
+    width: 75%;
+    border: 1.5px solid;
+    border-color:burlywood ;
+    border-radius: 50%;
+  }
+  
+  #rings-earrings-necklaces img{
+    width: 100%;  /* fit the image within the div */
+    margin: 15px 0;
+  }
+  
+  footer {
+    display: flex;  /* allows use of "justify-content" property */
+    justify-content: center;  /* horizontally centers the contents (the social icons) */
+    background-color:darkgoldenrod;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  footer a {
+    margin: 5px;
+    text-decoration: none!important;
+  }
+  
+  .social-icon {
+    display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
+    width: 50px;
+    height: 50px;
+    color:black;  
+    background-color: white;
+    justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+    align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
+    border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+  }
+  
+  .social-icon:hover {
+    color: #222;  /* change color when hover over the link */
+  }
+  
+  #go-top-button {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(109, 28, 28);
+    display: none;  /* Hidden by default */
+    position: fixed;  /* Fixed/sticky position */
+    bottom: 20px;  /* Place the button 20px from the bottom of the page */
+    right: 30px;  /* Place the button 30px from the right */
+    z-index: 99;  /* Make sure it does not overlap */
+    border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+  }
+
+
+/*shan form*/
+
+/*contact us section*/
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 4px;
+}
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 25px;
+    
+  }
+
+img {
+    max-width: 100%;
+    border-radius: 4px; /* Rounded borders */
+}
+
+.image {
+    flex-basis: 100%;
+    margin: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 15px; /* Some padding */ 
+    border: 1px solid darkgoldenrod;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+    border: 2px solid darkgoldenrod;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #f5ebde;
+    border-radius: 4px;
+  }
+  
+  /* When moving the mouse over the submit button, */
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  }
+
+
+
+ 
