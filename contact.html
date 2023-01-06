@@ -94,7 +94,7 @@
         </div>
         <div class="container">
           <form method="post" action='https://luciam37.github.io/Nonsisajewels/contact.html'>
-    
+            <fieldset>
                 <label for="fname">Full Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name">
             
@@ -103,7 +103,8 @@
     
                 <label for="lname">Contact Number</label>
                 <input type="text" id="number" name="number" placeholder="Tel">
-            
+            </fieldset>
+            <fieldset>
                 <label for="service">Service</label>
                 <select id="service" name="Service">
                   <option value="">(select one)</option>
@@ -112,9 +113,9 @@
                   <option value="3">Wholesale/Partenership</option>
                 </select>
             
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something" style="height:80px"></textarea>
-                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Request something" style="height:80px"></textarea>
+            </fieldset>    
                 <input type="submit" value="Submit" onclick="myFunction()">
             </form>
         </div>
