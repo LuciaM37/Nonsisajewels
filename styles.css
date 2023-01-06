@@ -165,6 +165,10 @@ fieldset {
   border-bottom: 3px solid darkgoldenrod;
 }
 
+label {
+  font-weight: bold;
+}
+
 input, select, textarea {
     width: 100%; /* Full width */
     padding: 5px; /* Some padding */ 
